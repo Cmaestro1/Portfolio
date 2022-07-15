@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "tenor";
+    src: url(../fonts/TenorSans-Regular.ttf);
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: "tenor";
+    font-size: 36px;
+    color: #8D8378;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+hr {
+    color: #AAA19A;
+    opacity: 0.3;
+    border: 1px solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: "tenor";
+    font-size: 30px;
+    color: #5D6D69;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+h3 {
+    font-family: "tenor";
+    font-size: 28px;
+    color: #8D8378;
+    letter-spacing: 0.05em;
+}
+
+p {
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4E4A45;
+    line-height: 16px;
+}
+
+#despedida {
+    font-size: 24px;
+}
+
+.figma {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 156px;
+    height: 32px;
+    background: #5D6D69;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    color: white;
+    font-family: "tenor";
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.lsh {
+    font-family: "tenor";
+    font-size: 24px;
+    color: gray;
+    letter-spacing: 0.1em;
+}
+
+.categorias {
+    text-align: center;
+}
+
+.nombre-categoria {
+    display: inline-block;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Secciones-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+#UX-Portfolio {
+    padding-top: 5vh;
+}
+
+.card-hd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 90vh;
+}
+
+.imagen-card-hd {
+    width: 30%;
+}
+
+.hd-descripcion {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    justify-content: center;
+    width: 30%;
+}
+
+.titulo-card-hd {
+    margin-bottom: 30px;
+}
+.cv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+.cv-titulo {
+    margin-bottom: 30px;
+}
+.cvtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cv img {
+width: 55%;
+}
+
+.contact-seccion {
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    justify-content: center;
+}
+
+.iconos {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.iconos a {
+    color: #5D6D69;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    background-color: #5D6D69;
+    gap: 10px;
+}
+
+#copyright {
+    color: white;
+}
+#cma {
+    color: white;
+}
